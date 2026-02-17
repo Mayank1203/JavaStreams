@@ -25,3 +25,10 @@
 - Reduces the elements into one using an accumulator.
 
       int sum = list.stream().reduce(0, Integer::sum);
+
+**4. FlatMap**
+- Flattens nested streams.
+- With the help of this we are able to perform operations in each elements 
+
+        Stream<List<String>> listOfLists = ...;
+        listOfLists.flatMap(List::stream)
