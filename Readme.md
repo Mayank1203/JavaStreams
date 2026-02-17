@@ -14,5 +14,14 @@
 - Filters elements based on a condition.
 - It act as a gate .
 
+        list.stream().filter(s -> s.startsWith("A"))
+
 **2. Map** 
 - Transforms elements.
+
+         list.stream().map(String::toUpperCase)
+
+**3. Reduce**
+- Reduces the elements into one using an accumulator.
+
+      int sum = list.stream().reduce(0, Integer::sum);
