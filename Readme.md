@@ -32,3 +32,9 @@
 
         Stream<List<String>> listOfLists = ...;
         listOfLists.flatMap(List::stream)
+
+**5. Peek**
+- Allows debugging by peeking each element.
+- does not affect the data of stream 
+
+      list.stream().peek(System.out::println)
