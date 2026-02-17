@@ -14,3 +14,5 @@
 - Filters elements based on a condition.
 - It act as a gate .
 
+**2. Map** 
+- Transforms elements.
