@@ -94,3 +94,8 @@
 - Returns true if any element matches. 
 
       boolean hasA = list.stream().anyMatch(s -> s.startsWith("A"));
+
+**6. count()**
+- Counts the number of elements.
+
+      long count = list.stream().count();
