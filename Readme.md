@@ -53,3 +53,8 @@
 - Removes duplicate elements.
 
        list.stream().distinct()
+
+**8. Skip**
+- Skips the first n elements.
+
+       list.stream().skip(2)
