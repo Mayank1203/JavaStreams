@@ -99,3 +99,9 @@
 - Counts the number of elements.
 
       long count = list.stream().count();
+
+**7. Sum()**
+- Gives sum of numbers 
+
+       int sumOfNumber = list.stream().mapToInt(x -> x.intValue()).sum();
+
