@@ -71,5 +71,11 @@
 
 **1. Collect(Collector)**
 - Collects elements into a collection or summary.
+- Should Learn about partitioningBy() & groupingBy() method in it. 
 
       List<String> collected = list.stream().collect(Collectors.toList());
+
+**2. Min(Comparator)**
+- Finds the minimum element.
+
+      Optional<String> min = list.stream().min(Comparator.naturalOrder());
