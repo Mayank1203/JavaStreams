@@ -79,3 +79,8 @@
 - Finds the minimum element.
 
       Optional<String> min = list.stream().min(Comparator.naturalOrder());
+
+**3. Max(Comparator)**
+- Finds the maximum element.
+
+      Optional<String> max = list.stream().max(Comparator.naturalOrder());
