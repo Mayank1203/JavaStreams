@@ -58,3 +58,8 @@
 - Skips the first n elements.
 
        list.stream().skip(2)
+
+**9. Limit**
+- Limits the number of elements.
+
+      list.stream().limit(3)
