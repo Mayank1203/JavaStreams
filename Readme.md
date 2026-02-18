@@ -49,3 +49,7 @@
 
       list.stream().sorted(Comparator.reverseOrder())
 
+**7. Distinct**
+- Removes duplicate elements.
+
+       list.stream().distinct()
