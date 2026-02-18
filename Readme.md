@@ -89,3 +89,8 @@
 - Returns the first element.
 
       Optional<String> first = list.stream().findFirst();
+
+**5. anyMatch(Predicate)**
+- Returns true if any element matches. 
+
+      boolean hasA = list.stream().anyMatch(s -> s.startsWith("A"));
