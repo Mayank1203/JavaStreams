@@ -38,3 +38,14 @@
 - does not affect the data of stream 
 
       list.stream().peek(System.out::println)
+
+**6.1 Sorted**
+- Sorts elements naturally.
+
+      list.stream().sorted()
+
+**6.2 Sorted(Comparator)**
+- Sorts elements using a custom comparator.
+
+      list.stream().sorted(Comparator.reverseOrder())
+
