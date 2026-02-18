@@ -10,6 +10,8 @@
 
 ### Types of Stream Operations
 
+## Intermediate Operations
+
 **1. Filter** 
 - Filters elements based on a condition.
 - It act as a gate .
@@ -63,3 +65,11 @@
 - Limits the number of elements.
 
       list.stream().limit(3)
+
+
+## Terminal Operations
+
+**1. Collect(Collector)**
+- Collects elements into a collection or summary.
+
+      List<String> collected = list.stream().collect(Collectors.toList());
