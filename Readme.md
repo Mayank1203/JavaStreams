@@ -84,3 +84,8 @@
 - Finds the maximum element.
 
       Optional<String> max = list.stream().max(Comparator.naturalOrder());
+
+**4. FindFirst**
+- Returns the first element.
+
+      Optional<String> first = list.stream().findFirst();
