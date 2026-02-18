@@ -1,4 +1,4 @@
-### Java Streame 
+## Java Streame 
 
 **Java Streams**, introduced in Java 8, bring a functional programming flavor to Java by allowing you to process collections of data in a declarative and concise manner. A stream represents a sequence of elements supporting sequential and parallel operations.
 
